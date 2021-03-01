@@ -10,7 +10,7 @@ function App() {
     >
 
       <main>
-        <h1>Football Players Manager</h1>
+        <h1>PLAYER TEAM MANAGER</h1>
         <Players />
         <TeamSelected />
       </main>

@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## About
+This application uses react-redux to manage data, it is about managing collections, which in this case almost simulates a football team ⚽ that is on the bench and you can send them to the starting 👨‍👨‍👦‍👦 or substitute 👨‍👦‍👦 team .  
+ 
+Also the same logic can be applied to an ecommerce where you have a list of items products 🥒 and select some to the favorites list ❤ and others to the cart 🛒. 
+
 ## Available Scripts
 
 In the project directory, you can run:

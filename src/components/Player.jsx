@@ -12,17 +12,23 @@ const Player = ({ _id, urlImage, name, edit=true, addStarter, addSubstitutes, ba
 
     return (
         <article className="player" >
-            <img src={urlImage} alt={name} />
-            <h3>{name} </h3>
-            {(edit)
-                ?   (<div>
+            <div>
+                <img src={urlImage} alt={name} />
+                <h3>{name} </h3>
+            </div>
+
+            <div>
+                {(edit)
+                ?   (<>
                         <button onClick={()=>addStarter(playerSelected)}      >Starters   </button>
                         <button onClick={()=>addSubstitutes(playerSelected)}  >Substitutes</button>
-                    </div>)
-                :   (<div>
+                    </>)
+                :   (<>
                         <button onClick={()=>backToTheBench(playerSelected)} >X            </button>
-                    </div>)
-            }
+                    </>)
+                }
+            </div>
+            
         </article>
     );
 }
